@@ -1,0 +1,167 @@
+body {
+    background-color: white;
+    height: fit-content;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+}
+
+.header {
+    border: black solid 1px;
+    text-align: center;
+    height: 80px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800px;
+    margin-top: 10px;
+}
+
+.form {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-left: black;
+    background-color: ghostwhite;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 85px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+.search-city {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-left: -50px;
+    font-size: 25px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    width: 200px;
+}
+
+.results {
+    background-color: white;
+    color: grey;
+    font-weight: 300;
+    width: 250px;
+    text-align: center;
+    border: grey solid 1px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 3px;
+    ;
+}
+
+.searchBtn {
+    height: 30px;
+    width: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+#current-city {
+    border: solid rgb(170, 165, 165) 1px;
+    margin-left: 320px;
+    
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.city-date {
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 20px;
+    float: left;
+}
+
+.data {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 45px;
+    width: 200px;
+}
+
+#forecast {
+    margin-left: 320px;
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-top: 50px;
+    background-color: transparent;
+    height: fit-content;
+}
+
+#UV-index {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#uv-index {
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    color: white;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(43, 99, 253);
+    color: white;
+    border: solid black 1px;
+    float: left;
+    margin-top: 15px;
+    margin: 50px;
+}
+
+.forecast-date {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.forecast-icon {
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.forecast-temp {
+    font-weight: 400px;
+}
+
+.forecast-humidity {
+    padding-top: 20px;
+}
+
+.five-Day {
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 20px;
+    border-bottom: solid rgb(170, 165, 165) 1px;
+}
