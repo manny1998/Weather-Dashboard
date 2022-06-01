@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard App</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Weather Dashboard</h1>
+    </header>
+    <section class="form">
+        <h3 class="search-city">Search for a City</h3>
+        <input class="text" id="search-bar" placeholder="City"></input>
+        <button type="button" class="searchBtn">Search</button>
+
+    </section>
+    <section class="article" id="current-city">
+        <h2 class="city-date"></h2>
+        <img class="icon">
+        <p class="data" id="temp"></p>
+        <p class="data" id="humidity"> </p>
+        <p class="data" id="windspeed"></p>
+        <p class="data" id="UV-index"></p>
+    </section>
+    <section class="article" id="forecast">
+        <h2 class="five-Day">5-Day-Forecast: </h2>
+        <section class="five-day-forecast"></section>
+    </section>
+
+    <footer class="footer"></footer>
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</html>
